@@ -1,4 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +16,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bg-vintage-paper {
+  background-image: url('https://www.publicdomainpictures.net/pictures/270000/velka/old-paper-background-1549827788lMA.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg {
+  background-color: #f4f1de; /* Vintage paper background */
+}
+
+.grow {
+  flex-grow: 1;
+}
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f7f7f7;
+}
+
+
